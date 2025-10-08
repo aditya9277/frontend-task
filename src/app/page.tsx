@@ -53,7 +53,7 @@ export default function Home() {
     fetchUsers();
   }, []);
 
-  // Three-state sorting: asc -> desc -> none
+  // asc -> desc -> none
   const handleSort = (key: "name" | "role") => {
     if (sortKey !== key) {
       setSortKey(key);
@@ -88,7 +88,7 @@ export default function Home() {
     return filtered;
   }, [users, debouncedSearch, roleFilter, sortKey, sortOrder]);
 
-  // Bonus: get unique roles for filter dropdown
+  // Bonus feature: get unique roles for filter dropdown
   const availableRoles = useMemo(() => {
     const roles = [...new Set(users.map((user) => user.role))];
     return roles.sort();

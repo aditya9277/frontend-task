@@ -9,7 +9,7 @@ interface UserTableProps {
   sortOrder?: SortDirection; // Added for sort direction
 }
 
-// Helper function to highlight search matches using <mark> tags
+//function to highlight search matches using <mark> tags
 const highlightText = (text: string, query: string) => {
   if (!query) return text;
   const regex = new RegExp(`(${query})`, "gi");
@@ -29,7 +29,7 @@ export default function UserTable({
     return sortOrder === "asc" ? " ⬆️" : sortOrder === "desc" ? " ⬇️" : " ↕️";
   };
 
-  // Getting the aria-sort attribute for accessibility
+  // Getting the aria-sort attribute 
   const getSortAttribute = (columnKey: "name" | "role") => {
     if (sortKey !== columnKey) return "none";
     return sortOrder === "asc"
@@ -43,7 +43,7 @@ export default function UserTable({
       <table className="w-full border-collapse border border-gray-300">
         <thead>
           <tr className="bg-gray-50">
-            {/* Clickable header with sort functionality and accessibility */}
+            {/* Clickable header with sort functionality*/}
             <th
               className="border border-gray-300 px-4 py-2 text-left cursor-pointer hover:bg-gray-100 select-none"
               onClick={() => onSort?.("name")}
@@ -53,7 +53,7 @@ export default function UserTable({
             <th className="border border-gray-300 px-4 py-2 text-left">
               Email
             </th>
-            {/* Clickable header with sort functionality and accessibility */}
+            {/* Clickable header with sort functionality*/}
             <th
               className="border border-gray-300 px-4 py-2 text-left cursor-pointer hover:bg-gray-100 select-none"
               onClick={() => onSort?.("role")}

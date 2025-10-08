@@ -28,7 +28,7 @@ I have completed all the required features for the frontend interview test:
 ## Bug Fixes
 - **SearchInput**: Fixed the component to properly accept and use props
 
-## 🛠️ Key Implementation Details
+## Key Implementation Details
 
 ### Performance Optimizations
 - **Debouncing**: Custom `userDebounce` hook for search optimization

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@techcorp.com",
+        "role": "Admin"
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 3,
+        "name": "Charlie Lee",
+        "email": "charlie.lee@techcorp.com",
+        "role": "Manager"
+    },
+    {
+        "id": 4,
+        "name": "Dana Kim",
+        "email": "dana.kim@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 5,
+        "name": "Eva Martinez",
+        "email": "eva.martinez@techcorp.com",
+        "role": "Manager"
+    },
+    {
+        "id": 6,
+        "name": "Frank Wilson",
+        "email": "frank.wilson@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 7,
+        "name": "Grace Chen",
+        "email": "grace.chen@techcorp.com",
+        "role": "Admin"
+    },
+    {
+        "id": 8,
+        "name": "Henry Taylor",
+        "email": "henry.taylor@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 9,
+        "name": "Iris Anderson",
+        "email": "iris.anderson@techcorp.com",
+        "role": "Manager"
+    },
+    {
+        "id": 10,
+        "name": "Jack Brown",
+        "email": "jack.brown@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 11,
+        "name": "Kate Davis",
+        "email": "kate.davis@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 12,
+        "name": "Liam O'Connor",
+        "email": "liam.oconnor@techcorp.com",
+        "role": "Admin"
+    },
+    {
+        "id": 13,
+        "name": "Maria Garcia",
+        "email": "maria.garcia@techcorp.com",
+        "role": "Manager"
+    },
+    {
+        "id": 14,
+        "name": "Nathan White",
+        "email": "nathan.white@techcorp.com",
+        "role": "User"
+    },
+    {
+        "id": 15,
+        "name": "Olivia Harris",
+        "email": "olivia.harris@techcorp.com",
+        "role": "User"
+    }
+]
